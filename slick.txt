@@ -1,0 +1,20 @@
+$('.your-class').not('.slick-initialized').slick({
+		/*autoplay: true,*/
+		autoplaySpeed: 1000,
+		pauseOnHover: false,
+		speed: 1500,
+		slidesToShow: 1,
+	});
+  
+//зробити марджіни між слайдами
+  /* the slides */
+.bgimg {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+.slick-slider{
+  overflow: hidden;
+}
