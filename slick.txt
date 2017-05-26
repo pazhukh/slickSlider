@@ -5,6 +5,10 @@ $('.your-class').not('.slick-initialized').slick({
 		speed: 1500,
 		slidesToShow: 1,
 	});
+	
+  $('.slick-arrow').removeAttr('style');
+  
+  
   
 //зробити марджіни між слайдами
   /* the slides */
