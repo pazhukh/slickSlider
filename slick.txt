@@ -8,6 +8,10 @@ $('.your-class').not('.slick-initialized').slick({
 	
   $('.slick-arrow').removeAttr('style');
   
+  //перемикання слайдера натиснувши на якийсь елемент
+  $('element').click(function(){
+		$('.slick-slider').slick("slickPrev"); 
+	});
   
   
 //зробити марджіни між слайдами
