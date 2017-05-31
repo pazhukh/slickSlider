@@ -26,3 +26,8 @@ $('.your-class').not('.slick-initialized').slick({
 .slick-slider{
   overflow: hidden;
 }
+
+//забрати синій бордер при кліку на слайдер
+.slick-slide:focus { 
+	outline: none!important; 
+}
