@@ -2,6 +2,7 @@ $('.your-class').not('.slick-initialized').slick({
 		/*autoplay: true,*/
 		autoplaySpeed: 1000,
 		pauseOnHover: false,
+		pauseOnFocus: false,
 		speed: 1500,
 		slidesToShow: 1,
 	});
