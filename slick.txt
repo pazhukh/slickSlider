@@ -1,3 +1,6 @@
+//якщо стандартним способом не вдається підключити
+$('.your-class').not('.slick-initialized').slick({})
+
 $('.your-class').not('.slick-initialized').slick({
 		/*autoplay: true,*/
 		autoplaySpeed: 1000,
@@ -15,6 +18,9 @@ $('.your-class').not('.slick-initialized').slick({
 	});
   
   
+ **************************************************************************************************************
+ 
+ 
 //зробити марджіни між слайдами
   /* the slides */
 .bgimg {
